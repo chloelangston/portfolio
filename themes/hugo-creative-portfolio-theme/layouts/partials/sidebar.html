@@ -1,0 +1,11 @@
+<div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
+  <div class="sidebar-content">
+    <ul class="sidebar-menu">
+      {{ partial "header.html" . }}
+      {{ range .Site.Params.navlinks }}
+        <li><a href="{{ absURL .url }}">{{ .name }}</a></li>
+      {{ end }}
+    </ul>
+    {{ partial "social_buttons_in_sidebar.html" . }}
+  </div>
+</div>

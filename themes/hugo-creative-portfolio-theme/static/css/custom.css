@@ -1,0 +1,30 @@
+/* your styles go here */
+
+@font-face {
+  font-family: lora;
+  src: url(../../../../static/fonts/Lora/Lora-Regular.tff);
+}
+
+body {
+  background-color: #557A95;
+}
+
+.sidebar-heading a, .sidebar-p, p.social a, .sidebar-menu li a {
+  color: rgb(221, 221, 221);
+}
+
+p.social a {
+  /* border: solid 1px rgb(221, 221, 221); */
+}
+
+.box-masonry {
+  border-radius: 10px;
+}
+
+.box-masonry, .box-masonry-image {
+  background: white !important;
+}
+
+.sidebar-menu li, .sidebar-content, .social {
+  margin-left: 15px;
+}

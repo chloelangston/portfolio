@@ -1,22 +1,22 @@
-<p class="social social--big">
+<p class="social social--big social-contact">
   {{ with .Site.Params.social.twitter }}
   <a href="{{ . }}" class="twitter">
-    <i class="fa fa-twitter"></i>
+    <i class="fa fa-twitter"><span>@chloesokay</span></i>
   </a>
   {{end}}
   {{ with .Site.Params.social.instagram }}
   <a href="{{ . }}" title="" class="instagram">
-    <i class="fa fa-instagram"></i>
+    <i class="fa fa-instagram"><span>@chlodrawg</span></i>
   </a>
   {{end}}
   {{ with .Site.Params.social.email }}
-  <a href="mailto:{{ . }}" class="email">
-    <i class="fa fa-envelope"></i>
+  <a ref="mailto:{{ . }}" class="email">
+    <i class="fa fa-envelope"><span>chloealangston@gmail.com</span></i>
   </a>
   {{end}}
   {{ with .Site.Params.social.linkedin }}
   <a href="{{ . }}">
-    <i class="fa fa-linkedin"></i>
+    <i class="fa fa-linkedin"><span style="margin-left:8px;">/chloelangston</span></i>
   </a>
   {{end}}
   <!-- {{ with .Site.Params.social.github }}

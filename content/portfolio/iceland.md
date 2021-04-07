@@ -1,8 +1,9 @@
 +++
 date = "2016-11-05T19:41:01+05:30"
 title = "Iceland's Contact Tracing"
+description = "During the Covid-19 pandemic, life in Iceland has remained relatively normal. Their success at keeping infections under control is partially due to having a small homogenous population that has trust in the government, but can also be credited to their rigorous contact tracing program."
 draft = false
-image = "img/portfolio/iceland.png"
+image = "img/portfolio/iceland_still.png"
 showonlyimage = false
 weight = 1
 +++
@@ -11,14 +12,18 @@ weight = 1
 November, 2020  
 *HTML, CSS, JS*
 
-This interactive story follows Pall, an Icelandic citizen, who is going through Iceland's Contact Tracing program.
-
 <!--more-->
 
-![This is an image](/img/portfolio/gifs/iceland.gif)
+![This is an image](/img/portfolio/iceland_still.png)  
 
-At the bottom, the reader can explore an interactive flow chart to learn more about the program.
+During the Covid-19 pandemic, life in Iceland has remained relatively normal. Their success at keeping infections under control is partially due to having a small homogenous population that has trust in the government, but can also be credited to their rigorous contact tracing program.
 
-![This is an image](/img/portfolio/gifs/flow-chart.gif)
+To outline how their contact tracing program works, I interviewed an Icelandic citizen named Pall who experienced how the system works first-hand. Below are screen recordings of his story integrated with illustrations and scrolling effects.  
+
+![This is an image](/img/portfolio/gifs/iceland.gif)  
+
+After reading Pall's story, a user may further explore how the system works by interacting with a dynamic flow chart which displays what further actions the government requires depending on a situation.  
+
+![This is an image](/img/portfolio/gifs/flow-chart.gif)  
 
 Read and interact with this story **[here](https://chloelangston.github.io/contact-tracing/)**.

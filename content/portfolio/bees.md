@@ -10,7 +10,7 @@ weight = 2
 `Interactive Story`
 
 July, 2020  
-*HTML, CSS, JS, P5js*
+*HTML, CSS, JS, P5.js*
 
 <!--more-->
 

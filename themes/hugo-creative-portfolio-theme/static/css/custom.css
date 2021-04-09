@@ -41,3 +41,9 @@ p.social a {
 .sidebar-menu li, .sidebar-content, .social {
   margin-left: 15px;
 }
+
+.portrait {
+  margin-left: 0px;
+  margin-bottom: 24px;
+  transform: scaleX(-1);
+}

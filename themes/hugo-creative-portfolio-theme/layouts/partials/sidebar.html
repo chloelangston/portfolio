@@ -1,6 +1,7 @@
 <div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
   <div class="sidebar-content">
     <ul class="sidebar-menu">
+      <img class="portrait" width="60%" src="../../../img/portrait_white.png">
       {{ partial "header.html" . }}
       {{ range .Site.Params.navlinks }}
         <li><a href="{{ absURL .url }}">{{ .name }}</a></li>

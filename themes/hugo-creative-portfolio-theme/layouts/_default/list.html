@@ -6,7 +6,8 @@
       {{ with .Site.Params.copyright }}
         {{ . | safeHTML }} |
       {{ end }}
+      {{ partial "attribution.html" . }}
     </p>
   </div>
-  {{ partial "attribution.html" . }}
+  
 {{ end }}

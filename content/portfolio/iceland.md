@@ -5,7 +5,7 @@ description = "During the Covid-19 pandemic, life in Iceland has remained relati
 draft = false
 image = "img/portfolio/iceland_still.png"
 showonlyimage = false
-weight = 1
+weight = 2
 +++
 `Interactive Story`
 

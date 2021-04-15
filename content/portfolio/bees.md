@@ -5,7 +5,7 @@ showonlyimage = false
 date = "2016-11-05T20:02:19+05:30"
 title = "What's the Deal With Bees?"
 description = "Anna is an entrepreneur and activist based in Paris, France. She is building a company that supports the bee population across her city. Learn with Anna about the importance of bees in this interactive story."
-weight = 2
+weight = 1
 +++
 `Interactive Story`
 

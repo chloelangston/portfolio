@@ -26,10 +26,6 @@ p.social-contact a i span {
   margin-left:5px;
 }
 
-p.social a {
-  /* border: solid 1px rgb(221, 221, 221); */
-}
-
 .box-masonry {
   border-radius: 10px;
 }
@@ -46,4 +42,17 @@ p.social a {
   margin-left: 0px;
   margin-bottom: 24px;
   transform: scaleX(-1);
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }

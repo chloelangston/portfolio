@@ -7,7 +7,7 @@ description = "How do gas-powered cars, fossil fuels and electricity usage impac
 draft = false
 weight = 5
 +++
-`Interactive Story`
+`Interactive Simulation`
 
 March, 2020  
 *HTML, CSS, JS, P5.js*

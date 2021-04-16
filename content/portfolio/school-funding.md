@@ -7,7 +7,7 @@ description = "There is a large discrepency between public school funding by sta
 draft = false
 weight = 3
 +++
-`Interactive Story`
+`Interactive Data Viz`
 
 June, 2020  
 *HTML, CSS, JS, D3.js*

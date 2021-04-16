@@ -7,7 +7,7 @@ description = "The estimated net worth of Congress members is publically availab
 showonlyimage = false
 weight = 8
 +++
-`Interactive Story`
+`Interactive Data Viz`
 
 July, 2020  
 *HTML, CSS, JS, D3.js*

@@ -2,7 +2,7 @@
 date = "2024-06-26T19:41:01+05:30"
 title = "The Routine"
 description = "According to research and surveys, it is likely that more people fear public speaking than death. Yet - similar to death - we cannot escape public speaking. So why not find a way to enjoy it?"
-draft = false
+draft = true
 image = "img/portfolio/public_speaking.png"
 showonlyimage = false
 weight = 2

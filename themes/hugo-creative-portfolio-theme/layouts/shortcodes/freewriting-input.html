@@ -1,0 +1,28 @@
+<div class="drawer">
+  <p id="freewrite-click" class="drawer-hidden"><b>Freewriting exercise:</b> Pour all your fears into the abyss</p>
+  <div class="hidden" id="freewriting-exercise">
+    <p>Unload your fears into this blank empty abyss in the form of a text box. On submit, its contents, similar to my career, will go nowhere. Answer questions like why <i>don't</i> you enjoy public speaking? Better yet, why do you <b><i>hate</i></b> it? Why do you dread it? Write it all down. Include down your past experiences, particularly the terrible. Don't think about grammar or style. Just write.</p>
+    <div class="form-group">
+      <textarea id="fake-input" type="textarea" class="form-control" placeholder="Dear public speaking, f*** you. Dave's wedding was already bad before I mentioned his wig in my best man speech, so that wasn't even my fault."></textarea>
+    </div>
+    <div><button id="fake-submit" class="btn btn-primary">Submit</button>    (aka throw away everything I wrote)</div>
+    <br></br>
+  </div>
+</div>
+<script type="text/javascript">
+  const fakeInput = document.getElementById('fake-input');
+  const fakeSubmit = document.getElementById('fake-submit');
+  fakeSubmit.onclick = function() {
+    fakeInput.value = "";
+  }
+
+  const cta = document.getElementById('freewrite-click');
+  cta.onclick = function() {
+    const exercise = document.getElementById('freewriting-exercise');
+    if (exercise.classList.contains('hidden')) {
+      exercise.classList.remove('hidden');
+    } else {
+      exercise.classList.add('hidden');
+    }
+  }
+</script>

@@ -1,5 +1,5 @@
 baseurl = "https://www.chloesokay.com"
-title = "Chloe Langston"
+title = "Chloesokay"
 theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
@@ -14,7 +14,7 @@ googleAnalytics = ""
   description = "Describe your website"
   copyright = "&copy;2021 Chloe Langston"
   sidebarAbout = [
-    "Web developer, illustrator and interactive storyteller."
+    "Good at being bad at things to become okay at them."
   ]
   # Google Analytics 4
   googleAnalyticsID = "G-Y856QN39YP"
@@ -43,9 +43,17 @@ googleAnalytics = ""
 
   # Nav links in the side bar
   [[params.navlinks]]
-  name = "Home"
-  url = "portfolio/"
+  name = "Projects"
+  url = "projects/"
   home = true
+
+  [[params.navlinks]]
+  name = "Blog"
+  url = "blog/"
+
+  [[params.navlinks]]
+  name = "Cartoons"
+  url = "cartoons/"
 
   [[params.navlinks]]
   name = "About"

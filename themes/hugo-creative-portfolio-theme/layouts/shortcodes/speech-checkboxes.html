@@ -1,0 +1,33 @@
+<div>
+  <p>Do you have a speech coming up?</p>
+  <input type="checkbox" id="wedding" name="wedding" class="speech-checkboxes">
+  <label for="wedding">Wedding toast <i class="hidden"> - I'm sorry</i></label><br>
+
+  <input type="checkbox" id="presentation" name="presentation" class="speech-checkboxes">
+  <label for="presentation">Work presentation <i class="hidden"> - Yikes</i></label><br>
+
+  <input type="checkbox" id="report" name="report" class="speech-checkboxes">
+  <label for="report">Book report <i class="hidden"> - Why, god, why</i></label><br>
+
+  <input type="checkbox" id="interview" name="interview" class="speech-checkboxes">
+  <label for="report">Interview <i class="hidden"> - We're all going to die anyway</i></label><br>
+
+  <input type="checkbox" id="conference" name="conference" class="speech-checkboxes">
+  <label for="conference">Conference <i class="hidden"> - Now you know you could bail right</i></label><br>
+
+  <input type="checkbox" id="meeting" name="meeting" class="speech-checkboxes">
+  <label for="meeting">Meeting <i class="hidden"> - Could be an email</i></label><br><br>
+</div>
+
+<script>
+  const checkboxes = document.getElementsByClassName('speech-checkboxes');
+  for (const [key, value] of Object.entries(checkboxes)) {
+    value.addEventListener('change', function() {
+      if (this.checked) {
+        this.nextElementSibling.childNodes[1].classList.remove('hidden');
+      } else {
+        this.nextElementSibling.childNodes[1].classList.add('hidden');
+      }
+    });
+  }
+</script>

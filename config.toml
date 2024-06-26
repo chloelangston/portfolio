@@ -16,6 +16,8 @@ googleAnalytics = ""
   sidebarAbout = [
     "Web developer, illustrator and interactive storyteller."
   ]
+  # Google Analytics 4
+  googleAnalyticsID = "G-Y856QN39YP"
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
      # proxy. The form makes a POST request to their servers to send the actual

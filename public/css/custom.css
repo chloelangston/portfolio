@@ -1,0 +1,58 @@
+/* your styles go here */
+
+@font-face {
+  font-family: lora;
+  src: url(../../../../static/fonts/Lora/Lora-Regular.tff);
+}
+
+body {
+  background-color: #557A95;
+}
+
+.sidebar-heading a, .sidebar-p, p.social a, .sidebar-menu li a {
+  color: rgb(221, 221, 221);
+}
+
+p.social-contact a {
+  color: #999999;
+  display: block;
+}
+
+p.social-contact a i {
+  font-size: 20px;
+}
+
+p.social-contact a i span {
+  margin-left:5px;
+}
+
+.box-masonry {
+  border-radius: 10px;
+}
+
+.box-masonry, .box-masonry-image {
+  background: white !important;
+}
+
+.sidebar-menu li, .sidebar-content, .social {
+  margin-left: 15px;
+}
+
+.portrait {
+  margin-left: 0px;
+  margin-bottom: 24px;
+  transform: scaleX(-1);
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

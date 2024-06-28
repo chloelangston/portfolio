@@ -1782,15 +1782,16 @@ fieldset[disabled] .btn-transparent.active {
 .label {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: normal;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 /* forms.less */
 label {
   font-weight: normal;
   color: #555555;
   font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
+  vertical-align: middle;
+  /* text-transform: uppercase; */
+  /* letter-spacing: 0.1em; */
 }
 .form-control {
   display: block;

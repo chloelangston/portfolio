@@ -1,12 +1,48 @@
-<div class="form-group">
-  <p><b>Contact</b></p>
+<div>
+  <p><b>Contact me</b></p>
   <form name="contact" method="POST" data-netlify="true" class="form">
+    <div class="form-group inline-block">
       <label>Your Name: <input type="text" name="name" /></label>
       <label>Your Email: <input type="email" name="email" /></label>
-      <label>Message: <textarea name="message" rows="4" cols="50"></textarea></label>
-      <div>
-        <button type="submit" class="btn btn-secondary">Send</button>
+    </div>
+    <div>
+      <span>Was this article helpful?</span>
+      <div class="form-group inline-block">
+        <input type="radio" name="helpful" value="very-helpful" /><label for="very-helpful">Yes very!</label>
+        <input type="radio" name="helpful" valule="somewhat-helpful" /><label for="somewhat-helpful">Somewhat</label>
+        <input type="radio" name="helpful" value="not-helpful" /><label for="not-helpful">Not really</label>
       </div>
-    </p>
+    </div>
+    <div>
+      <span>Would you recommend it to a friend?</span>
+      <div class="form-group inline-block">
+        <input type="radio" name="recommend" value="yes-recommend" /><label for="yes-recommend">Yes</label>
+        <input type="radio" name="recommend" value="yes-recommend" /><label for="no-recommend">No</label>
+      </div>
+    </div>
+    <div>
+      <span>Did you try the freewriting exercise?</span>
+      <div class="form-group inline-block">
+        <input type="radio" name="freewrite" value="yes-freewrite" /><label for="yes-freewrite">Yes</label>
+        <input type="radio" name="freewrite" value="no-freewrite" /><label for="no-freewrite">No</label>
+      </div>
+    </div>
+    <div>
+      <span>Did you try the routine exercises?</span>
+      <div class="form-group inline-block">
+          <input type="radio" name="exercises" value="yes-exercises" /><label for="yes-exercises">Yes</label>
+          <input type="radio" name="exercises" value="no-exercises" /><label for="no-exercises">No</label>
+      </div>
+    </div>
+    <div>
+      <div>
+        How did the routine go for you? Anything else to share? Feedback is much appreciated.
+        <!-- <label> </label> -->
+      </div>
+      <textarea name="message" rows="4" cols="50"></textarea>
+    </div>
+    <div>
+      <button type="submit" class="btn btn-secondary">Send</button>
+    </div>
   </form>
 </div>

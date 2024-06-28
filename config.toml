@@ -14,7 +14,7 @@ googleAnalytics = ""
   description = "Describe your website"
   copyright = "&copy;2021 Chloe Langston"
   sidebarAbout = [
-    "Good at being bad at things to become okay at them."
+    "Good at being bad at things to become good at them."
   ]
   # Google Analytics 4
   googleAnalyticsID = "G-Y856QN39YP"

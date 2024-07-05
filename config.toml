@@ -14,7 +14,7 @@ googleAnalytics = ""
   description = "Describe your website"
   copyright = "&copy;2021 Chloe Langston"
   sidebarAbout = [
-    "Good at being bad at things to become good at them."
+    "Web developer, learning designer, illustrator"
   ]
   # Google Analytics 4
   googleAnalyticsID = "G-Y856QN39YP"
@@ -48,12 +48,8 @@ googleAnalytics = ""
   home = true
 
   [[params.navlinks]]
-  name = "Blog"
-  url = "blog/"
-
-  [[params.navlinks]]
-  name = "Cartoons"
-  url = "cartoons/"
+  name = "Illustrations"
+  url = "illustrations/"
 
   [[params.navlinks]]
   name = "About"
